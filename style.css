@@ -2,3 +2,22 @@
     background-color: rgb(31, 31, 31); /* Dark mode */
     color: rgb(206, 206, 206);
 } 
+
+#grids {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: white;
+    margin: 1px;
+}
+
