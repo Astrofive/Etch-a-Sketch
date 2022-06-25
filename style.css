@@ -3,6 +3,10 @@
     color: rgb(206, 206, 206);
 } 
 
+.dimensionbutton {
+    margin: 30px;
+}
+
 #grids {
     display: flex;
     flex-direction: column;
