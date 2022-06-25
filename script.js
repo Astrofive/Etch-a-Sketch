@@ -17,3 +17,10 @@ for(y = 1; y <= height; y++){
         document.querySelector('#row' + y).appendChild(div);
     }  
 }
+
+const squares = document.querySelectorAll('.grid');
+squares.forEach((square) => {
+    square.addEventListener('mouseover', () => {
+        console.log("hover is working");
+    });
+});
