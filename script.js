@@ -13,8 +13,6 @@ dimensionbutton.addEventListener('click', () => {
     else {
         alert("value must be a number between 1 and 100");
     }
-
-    
 });
 
 function paintGrid(){
