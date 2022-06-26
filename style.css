@@ -8,13 +8,10 @@
     margin: 30px;
 }
 
-#container {
-    width: 500px;
-    height: 500px;
-    display: flex;
-}
 
 #rows {
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     flex: 1;
